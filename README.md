@@ -3,20 +3,6 @@
 This project demonstrates how to write data to Apache Kafka using Python code.  
 The program reads the Amazon Reviews CSV dataset, converts each review into a tweet-like JSON event, replaces the original timestamp with the current UTC time, and sends every event as an individual Kafka message to the `tweets` topic.
 
-## Repository name
-
-Recommended GitHub repository name:
-
-```text
-amazon-reviews-kafka-tweet-stream
-```
-
-## About description
-
-```text
-Python Kafka producer that streams Amazon Reviews as tweet-like events into Apache Kafka using Docker Compose.
-```
-
 ## Topics
 
 ```text
